@@ -74,7 +74,7 @@ Apabila kamu ingin menggunakan repositori ini sebagai repositori awalan yang nan
 
 8. Klik menu `Settings` dan ubahlah URL yang ada pada bagian `Domains` sesuai dengan `APP_NAME` yang telah dispesifikasikan sebelumnya.
 
-9. Tekan Control + K atau Command + K dan pilih `New Service -> Database -> Add PostgreSQL`.
+9. Tekan Control + K atau Command + K dan pilih `New Service -> Database -> Add PostgreSQL` untuk menginisiasi basis data PostgreSQL sebagai basis data yang digunakan.
 
 ## Lisensi
 
