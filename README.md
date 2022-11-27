@@ -13,7 +13,7 @@ Repositori ini berisi sebuah templat untuk membuat proyek Django yang siap di-*d
 
 ### Pengembangan Lokal
 
-Apabila kamu ingin menggunakan repositori ini sebagai repositori awalan yang nantinya akan kamu modifikasi:
+Apabila kamu ingin menggunakan repositori ini sebagai repositori awalan yang nantinya akan kamu modifikasi, ikuti langkah-langkah berikut.
 
 1. Buka laman GitHub repositori templat kode, lalu klik tombol "**Use this template**"
    untuk membuat salinan repositori ke dalam akun GitHub milikmu.
