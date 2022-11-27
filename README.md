@@ -6,6 +6,7 @@ Repositori ini berisi sebuah templat untuk membuat proyek Django yang siap di-*d
 
 - [Daftar Isi](#daftar-isi)
 - [Instruksi Penggunaan](#instruksi-penggunaan)
+- [Lisensi](#lisensi)
 - [Referensi](#referensi)
 
 ## Instruksi Penggunaan
@@ -74,6 +75,10 @@ Apabila kamu ingin menggunakan repositori ini sebagai repositori awalan yang nan
 8. Klik menu `Settings` dan ubahlah URL yang ada pada bagian `Domains` sesuai dengan `APP_NAME` yang telah dispesifikasikan sebelumnya.
 
 9. Tekan Control + K atau Command + K dan pilih `New Service -> Database -> Add PostgreSQL`.
+
+## Lisensi
+
+Templat ini didistribusikan dengan lisensi [MIT](LICENSE).
 
 ## Referensi
 
