@@ -40,6 +40,9 @@ ALLOWED_HOSTS = [f'{APP_NAME}.up.railway.app']
 if not PRODUCTION:
     ALLOWED_HOSTS += ['.localhost', '127.0.0.1', '[::1]']
 
+# For CSRF origin check verification
+CSRF_TRUSTED_ORIGINS = [f'{APP_NAME}.up.railway.app']
+
 # Application definition
 
 INSTALLED_APPS = [
@@ -152,9 +155,8 @@ STATICFILES_DIRS = [
 for directory in [*STATICFILES_DIRS, STATIC_ROOT]:
     directory.mkdir(exist_ok=True)
 
-# Enable compression and caching features of whitenoise.
-# You can remove this if it causes problems on your setup.
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+# Using Django StaticFilesStorage for staticfiles.
+STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
